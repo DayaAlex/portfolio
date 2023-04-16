@@ -14,10 +14,10 @@ function App() {
      <Router>
       <Navbar /> 
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path='/Projects' element={<Projects />} />
-        <Route path='/projects/:id' element={<ProjectDisplay />} />
-        <Route path='/Experience' element={<Experience />} />
+        <Route path="/portfolio/" element={<Home />} />
+        <Route path='/portfolio/Projects' element={<Projects />} />
+        <Route path='/portfolio/projects/:id' element={<ProjectDisplay />} />
+        <Route path='/portfolio/Experience' element={<Experience />} />
       </Routes>
       <Footer />
      </Router>
