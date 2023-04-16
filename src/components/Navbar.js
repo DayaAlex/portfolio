@@ -22,9 +22,9 @@ function Navbar() {
         </button>
       </div>
       <div className='links'>
-        <Link to='/portfolio/'> Home </Link>
-        <Link to='/portfolio/projects'> Projects </Link>
-        <Link to='/portfolio/experience'> Experience</Link>
+        <Link to='./'> Home </Link>
+        <Link to='./projects'> Projects </Link>
+        <Link to='./experience'> Experience</Link>
         </div>  
     </div>
   );
