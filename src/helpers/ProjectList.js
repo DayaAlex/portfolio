@@ -10,7 +10,7 @@ export const ProjectList=[
     {
         name: "Recognising missclasified MNIST digits using SVM",
         image: ErrDigit, 
-        skills: 'Python, Pandas, GoogleColab',
+        skills: 'Python, Pandas, Sklearn, GoogleColab',
     },
 
     {
