@@ -49,7 +49,19 @@ function Experience() {
 
       <VerticalTimelineElement
        className='vertical-timeline-element--education'
-       date='2022-2024'
+       date='2015-2019'
+       iconStyle={{background:'#3e497a',color:'#fff'}}
+       icon={<SchoolIcon/>}
+      >
+        <h3 className='vertical-timeline-element-title'>
+          Annamalai University
+        </h3>
+        <p>Post Graduate Diploma in Computer Apllications</p>
+      </VerticalTimelineElement>
+
+      <VerticalTimelineElement
+       className='vertical-timeline-element--education'
+       date='2020-2021'
        iconStyle={{background:'#3e497a',color:'#fff'}}
        icon={<SchoolIcon/>}
       >

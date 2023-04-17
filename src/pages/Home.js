@@ -10,7 +10,7 @@ function Home() {
       <div className='about'> 
       <h2> Hi, My Name is Daya </h2>
       <div className='prompt'>
-        <p> M.Tech AI student looking for data science/software engineering Internships </p>
+        <p> M.Tech AI student looking for AI/data science/software engineering Internships </p>
         <LinkedInIcon/>
         <EmailIcon/>
         <GitHubIcon/>
