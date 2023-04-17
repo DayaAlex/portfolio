@@ -2,7 +2,7 @@
 import ErrDigit from '../assets/wrongdigit.png'
 import or_perceptron from '../assets/OR_gate_perceptron.png'
 import mle_mean from '../assets/MLE_mean.png'
-
+import obj_loc from '../assets/CV-obj-localisation.png'
 import mle_var from '../assets/MLE_variance.png'
 import person_re from '../assets/CV-person-reidentification.png'
 export const ProjectList=[
@@ -14,9 +14,15 @@ export const ProjectList=[
     },
 
     {
-        name: "Person Re-identification using Siamese Nueral Network",
+        name: "CV: Person Re-identification using Siamese Nueral Network",
         image:  person_re,
-        skills: 'PyTorch, Timm, GoogleColab',
+        skills: 'PyTorch, Timm,Skimage, GoogleColab',
+    },
+
+    {
+        name: "CV: Object Localisation using EfficientNet-b0",
+        image:  obj_loc,
+        skills: 'Pytorch, Albumentations,OpenCV, GoogleColab ',
     },
 
     {
@@ -30,6 +36,7 @@ export const ProjectList=[
         image:  mle_mean,mle_var,
         skills: 'Python, Sublime,Scipy.stats',
     },
+
 
 
 ] 
