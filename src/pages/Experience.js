@@ -42,14 +42,14 @@ function Experience() {
        icon={<SchoolIcon/>}
       >
         <h3 className='vertical-timeline-element-title'>
-          Rajiv Gandhi Institute of Technology,kottayam, Kerala
+          Rajiv Gandhi Institute of Technology,Kottayam, Kerala
         </h3>
         <p>B.Tech Civil Engineering CGPA-7.9</p>
       </VerticalTimelineElement>
-
+      
       <VerticalTimelineElement
        className='vertical-timeline-element--education'
-       date='2015-2019'
+       date='2020-2021'
        iconStyle={{background:'#3e497a',color:'#fff'}}
        icon={<SchoolIcon/>}
       >
@@ -61,7 +61,7 @@ function Experience() {
 
       <VerticalTimelineElement
        className='vertical-timeline-element--education'
-       date='2020-2021'
+       date='2022-2024'
        iconStyle={{background:'#3e497a',color:'#fff'}}
        icon={<SchoolIcon/>}
       >
