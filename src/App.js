@@ -11,7 +11,7 @@ import ProjectDisplay from "./pages/ProjectDisplay";
 function App() {
   return (
     <div className="App">
-     <Router basename='/portfolio'>
+     <Router>
       <Navbar /> 
       <Routes>
         <Route path="/" element={<Home />} />
