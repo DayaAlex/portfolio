@@ -32,7 +32,7 @@ function Experience() {
         <h3 className='vertical-timeline-element-title'>
           Kendriya Vidyalaya No.2, Naval Base, Kochi, Kerala
         </h3>
-        <p>12th Computer Science Percentage-95%</p>
+        <p>12th Computer Science Percentage-92%</p>
       </VerticalTimelineElement>
 
       <VerticalTimelineElement
