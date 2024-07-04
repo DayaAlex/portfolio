@@ -11,42 +11,32 @@ function Experience() {
   return (
     <div className='Experience'>
       <VerticalTimeline lineColor='#3e497a'>
+
       <VerticalTimelineElement
        className='vertical-timeline-element--education'
-       date='2013'
+       date='Sept 2022- Jun 2024'
        iconStyle={{background:'#3e497a',color:'#fff'}}
        icon={<SchoolIcon/>}
       >
         <h3 className='vertical-timeline-element-title'>
-          Kendriya Vidyalaya No.2, Naval Base, Kochi, Kerala
+          College of Engineering Trivandrum, Kerala
         </h3>
-        <p>10th CGPA-10</p>
+        <p>M.Tech Artificial Intelligence CGPA-7.84</p>
       </VerticalTimelineElement>
 
       <VerticalTimelineElement
        className='vertical-timeline-element--education'
-       date='2015'
+       date='Oct 2023- Jan 2024'
        iconStyle={{background:'#3e497a',color:'#fff'}}
        icon={<SchoolIcon/>}
       >
         <h3 className='vertical-timeline-element-title'>
-          Kendriya Vidyalaya No.2, Naval Base, Kochi, Kerala
+          Udacity
         </h3>
-        <p>12th Computer Science Percentage-92%</p>
-      </VerticalTimelineElement>
-
-      <VerticalTimelineElement
-       className='vertical-timeline-element--education'
-       date='2015-2019'
-       iconStyle={{background:'#3e497a',color:'#fff'}}
-       icon={<SchoolIcon/>}
-      >
-        <h3 className='vertical-timeline-element-title'>
-          Rajiv Gandhi Institute of Technology,Kottayam, Kerala
-        </h3>
-        <p>B.Tech Civil Engineering CGPA-7.9</p>
-      </VerticalTimelineElement>
+        <p>Nanodegree: AI programming with Python</p>
       
+      </VerticalTimelineElement>
+
       <VerticalTimelineElement
        className='vertical-timeline-element--education'
        date='2020-2021'
@@ -61,31 +51,40 @@ function Experience() {
 
       <VerticalTimelineElement
        className='vertical-timeline-element--education'
-       date=')Oct 2023- Jan 2024'
+       date='2015-2019'
        iconStyle={{background:'#3e497a',color:'#fff'}}
        icon={<SchoolIcon/>}
       >
         <h3 className='vertical-timeline-element-title'>
-          Udacity
+          Rajiv Gandhi Institute of Technology,Kottayam, Kerala
         </h3>
-        <p>Nanodegree: AI programming with Python</p>
-      
+        <p>B.Tech Civil Engineering CGPA-7.9</p>
       </VerticalTimelineElement>
-
 
       <VerticalTimelineElement
        className='vertical-timeline-element--education'
-       date='Sept 2022- Jun 2024'
+       date='2015'
        iconStyle={{background:'#3e497a',color:'#fff'}}
        icon={<SchoolIcon/>}
       >
         <h3 className='vertical-timeline-element-title'>
-          College of Engineering Trivandrum, Kerala
+          Kendriya Vidyalaya No.2, Naval Base, Kochi, Kerala
         </h3>
-        <p>M.Tech Artificial Intelligence CGPA-7.84</p>
+        <p>12th Computer Science Percentage-92%</p>
       </VerticalTimelineElement>
-
-
+      
+      <VerticalTimelineElement
+       className='vertical-timeline-element--education'
+       date='2013'
+       iconStyle={{background:'#3e497a',color:'#fff'}}
+       icon={<SchoolIcon/>}
+      >
+        <h3 className='vertical-timeline-element-title'>
+          Kendriya Vidyalaya No.2, Naval Base, Kochi, Kerala
+        </h3>
+        <p>10th CGPA-10</p>
+      </VerticalTimelineElement>
+    
       </VerticalTimeline>
 
 

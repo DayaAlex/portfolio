@@ -10,7 +10,8 @@ function Home() {
       <div className='about'> 
       <h2> Hi, My Name is Daya </h2>
       <div className='prompt'>
-        <p> M.Tech AI student looking for AI/data science/software engineering Internships </p>
+        <p> Aspiring M.Tech AI post-graduate eager to acquire industry-relevant skills and make
+        meaningful contributions to both the organization and society. </p>
         <LinkedInIcon/>
         <EmailIcon/>
         <GitHubIcon/>
@@ -20,17 +21,26 @@ function Home() {
       <h1> Skills</h1>
       <ol className='list'>
         <li className='item'>
-          <h2> Front-End</h2>
-          <span> ReactJS</span>
-        </li>
+            <h2> Deep Learning</h2>
+            <span> PyTorch, PyTorch Lightning, WandB experiment tracking and hyperparameter tuning</span>
+          </li>
         <li className='item'>
-          <h2> Back-End</h2>
-          <span> MySQL</span>
+          <h2> Deployment Technology</h2>
+          <span> ONNX, TensorRT, PyCuda, JetsonTX2, Qualcomm</span>
         </li>
         <li className='item'>
           <h2> Languages</h2>
           <span> Python, C++</span>
         </li>
+        <li className='item'>
+          <h2> Front-End</h2>
+          <span> ReactJS, HTML, CSS</span>
+        </li>
+        <li className='item'>
+          <h2> Back-End</h2>
+          <span> MySQL, PHP</span>
+        </li>
+        
       </ol>
       
       
