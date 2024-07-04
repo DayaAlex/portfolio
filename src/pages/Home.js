@@ -10,17 +10,18 @@ function Home() {
       <div className='about'> 
       <h2> Hi, My Name is Daya </h2>
       <div className='prompt'>
-        <p> Aspiring M.Tech AI post-graduate eager to acquire industry-relevant skills and make
+        <p> Aspiring post-graduate in AI eager to acquire industry-relevant skills and make
         meaningful contributions to both the organization and society. </p>
+        <a href="https://github.com/DayaAlex" target="_blank" rel="noopener noreferrer">
+            <GitHubIcon className='icon'/>
+        </a>
         <a href="https://www.linkedin.com/in/daya-alex-506ba4268/" target="_blank" rel="noopener noreferrer">
         <LinkedInIcon/>
         </a>
+        <a href="mailto:dayaalex7212@gmail.com" target="_blank" rel="noopener noreferrer">
         <EmailIcon/>
-        <a href="https://github.com/DayaAlex" target="_blank" rel="noopener noreferrer">
-            <GitHubIcon className='icon'/>
-          </a>
-        
-        </div>
+        </a>
+      </div>
       </div> 
       <div className='skills'> 
       <h1> Skills</h1>
@@ -34,8 +35,12 @@ function Home() {
           <span> ONNX, TensorRT, PyCuda, JetsonTX2, Qualcomm</span>
         </li>
         <li className='item'>
+            <h2> Machine Learning</h2>
+            <span> Pandas, Sklearn, AutoGluon on AWS Sagemaker</span>
+          </li>
+        <li className='item'>
           <h2> Languages</h2>
-          <span> Python, C++</span>
+          <span> Python, Java, C, C++</span>
         </li>
         <li className='item'>
           <h2> Front-End</h2>

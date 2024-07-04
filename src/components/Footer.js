@@ -7,7 +7,9 @@ function Footer() {
   return (
     <div className='footer'>
         <div className='github'>
-        <GitHubIcon />
+        <a href="https://github.com/DayaAlex" target="_blank" rel="noopener noreferrer">
+            <GitHubIcon className='icon'/>
+        </a>
         </div>
         <p> &copy; 2023 dayaalex</p>
     </div>
