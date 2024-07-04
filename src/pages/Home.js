@@ -12,9 +12,14 @@ function Home() {
       <div className='prompt'>
         <p> Aspiring M.Tech AI post-graduate eager to acquire industry-relevant skills and make
         meaningful contributions to both the organization and society. </p>
+        <a href="https://www.linkedin.com/in/daya-alex-506ba4268/" target="_blank" rel="noopener noreferrer">
         <LinkedInIcon/>
+        </a>
         <EmailIcon/>
-        <GitHubIcon/>
+        <a href="https://github.com/DayaAlex" target="_blank" rel="noopener noreferrer">
+            <GitHubIcon className='icon'/>
+          </a>
+        
         </div>
       </div> 
       <div className='skills'> 
