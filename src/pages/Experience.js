@@ -61,14 +61,28 @@ function Experience() {
 
       <VerticalTimelineElement
        className='vertical-timeline-element--education'
-       date='2022-2024'
+       date=')Oct 2023- Jan 2024'
+       iconStyle={{background:'#3e497a',color:'#fff'}}
+       icon={<SchoolIcon/>}
+      >
+        <h3 className='vertical-timeline-element-title'>
+          Udacity
+        </h3>
+        <p>Nanodegree: AI programming with Python</p>
+      
+      </VerticalTimelineElement>
+
+
+      <VerticalTimelineElement
+       className='vertical-timeline-element--education'
+       date='Sept 2022- Jun 2024'
        iconStyle={{background:'#3e497a',color:'#fff'}}
        icon={<SchoolIcon/>}
       >
         <h3 className='vertical-timeline-element-title'>
           College of Engineering Trivandrum, Kerala
         </h3>
-        <p>M.Tech Artificial Intelligence</p>
+        <p>M.Tech Artificial Intelligence CGPA-7.84</p>
       </VerticalTimelineElement>
 
 
